@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView android:id="@+id/taskTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"
+        android:text="Title"
+        />
+
+    <TextView android:id="@+id/taskdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskTitle"
+        android:textSize="12sp"
+        android:paddingLeft="5dp"
+        android:text="Description"
+        />
+
+<!--
+    <TextView android:id="@+id/taskStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskdescription"
+        android:textSize="12sp"
+        android:paddingLeft="5dp"
+        android:text="Status"
+        />
+
+    <TextView android:id="@+id/taskPriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/taskStatus"
+        android:textSize="12sp"
+        android:paddingLeft="5dp"
+        android:text="Priority"
+        />
+-->
+
+    <TextView
+        android:id="@+id/filler"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:layout_toRightOf="@+id/taskTitle"
+        />
+
+    <ImageView
+        android:id="@+id/imgPriority"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_toRightOf="@+id/filler"
+        />
+
+    <TextView
+        android:id="@+id/filler2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_toRightOf="@+id/taskTitle"
+        />
+
+    <ImageView
+        android:id="@+id/imgStatus"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_toRightOf="@+id/filler2"
+     />
+
+    <!--<ImageView
+        android:id="@+id/imgStatus_Complete"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+       android:src="@drawable/status_complete"
+
+        />
+
+    <ImageView
+        android:id="@+id/imgStatus_Pending"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:src="@drawable/status_pending"
+
+        />
+
+    <ImageView
+        android:id="@+id/imgPriority_Low"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:src="@drawable/priority_low"
+
+        />
+
+    <ImageView
+        android:id="@+id/imgPriority_Medium"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:src="@drawable/priority_medium"
+
+        />
+
+    <ImageView
+        android:id="@+id/imgPriority_High"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:src="@drawable/priority_high"
+
+        />
+-->
+
+
+</RelativeLayout>
